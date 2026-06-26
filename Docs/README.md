@@ -55,37 +55,34 @@ Purpose: Simulated enterprise tenant
 
 ## Project Roadmap
 
-### Version 1.0
+### Version 0.1
 - Project setup
 - GitHub repository
 - Documentation
 - Company planning
 
-### Version 2.0
-- Tenant assessment
-
-### Version 3.0
+### Version 0.2
 - Enterprise users
 
-### Version 4.0
+### Version 0.3
 - Security groups
 
-### Version 5.0
+### Version 0.4
 - Administrative roles
 
-### Version 6.0
+### Version 0.5
 - Company identity structure
 
-### Version 7.0
+### Version 0.6
 - Developer access design
 
-### Version 8.0
+### Version 0.7
 - Microsoft Intune
 
-### Version 9.0
+### Version 0.8
 - Microsoft Graph planning
 
-### Version 10.0
+### Version 0.9
 - Final documentation
 
 ---
