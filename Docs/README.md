@@ -65,7 +65,7 @@ Purpose: Simulated enterprise tenant
 - Enterprise users
 
 ### Version 0.3
-- Security groups
+- groups
 
 ### Version 0.4
 - Administrative roles
