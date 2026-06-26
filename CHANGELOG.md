@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## v1.0 - Project Initialization
+## v0.1 - Project Initialization
 
 ### Added
 - Created GitHub repository.
@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## v2.0 - Identity Foundation
+## v0.2 - Identity Foundation
 
 ### Added
 - Created enterprise user accounts for the IT Solutions lab.
@@ -32,7 +32,7 @@ All notable changes to this project will be documented in this file.
 
 ## Upcoming
 
-### v3.0 - Security Groups
+### v0.3 - Security Groups
 - Create enterprise Security Groups.
 - Assign users to appropriate groups.
 - Begin implementing group-based access management.
