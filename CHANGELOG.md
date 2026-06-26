@@ -1,7 +1,38 @@
-v0.1
+# Changelog
 
-Initial project creation
+All notable changes to this project will be documented in this file.
 
-Created a repository
+---
 
-Created documentation structure
+## v1.0 - Project Initialization
+
+### Added
+- Created GitHub repository.
+- Established project folder structure.
+- Added initial documentation.
+- Created `README.md`.
+- Created `CHANGELOG.md`.
+- Created `docs/`, `screenshots/`, and `diagrams/` directories.
+
+---
+
+## v2.0 - Identity Foundation
+
+### Added
+- Created enterprise user accounts for the IT Solutions lab.
+- Established a standardized user naming convention.
+- Added Version 2 documentation.
+- Added screenshots demonstrating user creation and properties.
+
+### Design Decisions
+- User identities were created without permissions or group memberships.
+- Access management will be implemented through Security Groups in the next version to separate identity from authorization.
+
+---
+
+## Upcoming
+
+### v3.0 - Security Groups
+- Create enterprise Security Groups.
+- Assign users to appropriate groups.
+- Begin implementing group-based access management.
