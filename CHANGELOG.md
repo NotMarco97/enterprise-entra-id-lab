@@ -35,4 +35,5 @@ All notable changes to this project will be documented in this file.
 ### Added
 - created approriate security groups.
 - Assigned users to appropriate groups.
+- Added Version 0.3 documentation and screenshots.
 
