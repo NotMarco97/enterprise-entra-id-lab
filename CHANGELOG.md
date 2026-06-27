@@ -37,3 +37,13 @@ All notable changes to this project will be documented in this file.
 - Assigned users to appropriate groups.
 - Added Version 0.3 documentation and screenshots.
 
+
+## v0.4 - Role-Based Access Control (RBAC)
+
+### Added
+- Assigned built-in Microsoft Entra administrative roles to designated users.
+- Implemented role assignments following the principle of least privilege.
+- Added screenshot demonstrating RBAC configuration.
+
+### Next
+- Implement Microsoft 365 Groups (Collaboration).
