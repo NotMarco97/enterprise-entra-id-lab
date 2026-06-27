@@ -30,9 +30,9 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## Upcoming
+## v0.3 Security Groups
 
-### v0.3 - Security Groups
-- Create enterprise Security Groups.
-- Assign users to appropriate groups.
-- Begin implementing group-based access management.
+### Added
+- created approriate security groups.
+- Assigned users to appropriate groups.
+
