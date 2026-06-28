@@ -45,5 +45,8 @@ All notable changes to this project will be documented in this file.
 - Implemented role assignments following the principle of least privilege.
 - Added screenshot demonstrating RBAC configuration.
 
-### Next
-- Implement Microsoft 365 Groups (Collaboration).
+## v0.5
+
+### Added
+- Implemented Microsoft 365 Groups (Collaboration).
+- Added a user in the Microsoft 365 group as owner.
