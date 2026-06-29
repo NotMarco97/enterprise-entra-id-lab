@@ -1,118 +1,176 @@
-# Enterprise Entra ID Administration Lab
+# Enterprise Microsoft Entra ID Administration Lab
 
-## Overview
+## Project Objective
 
-This project is a hands-on Microsoft Entra ID administration lab designed to simulate the identity and access management of a real-world organization.
-
-The goal is to build an enterprise environment from the ground up by creating users, groups, administrative roles, security policies, and eventually integrating Microsoft Intune and Microsoft Graph.
-
-This lab also serves as the foundation for a future Spring Boot application that automates employee identity provisioning using the Microsoft Graph API.
+Develop hands-on experience administering Microsoft Entra ID by building an enterprise identity environment from the ground up. This lab focuses on understanding not only *how* Microsoft Entra features work, but *why* organizations implement them to manage identities, applications, devices, and security at scale.
 
 ---
 
-## Company
+## Version Roadmap
 
-**IT Solutions**
+### v0.1 – Project Initialization
 
-Industry: Managed IT Services
-
-Environment: Microsoft Entra ID
-
-Purpose: Simulated enterprise tenant
-
----
-
-## Objectives
-
-- Learn Microsoft Entra ID administration
-- Design an enterprise identity structure
-- Implement Role-Based Access Control (RBAC)
-- Create and manage Security Groups
-- Learn Microsoft Intune
-- Understand enterprise identity lifecycle management
-- Prepare for Microsoft Graph integration
-- Document enterprise cloud administration practices
+* Create GitHub repository
+* Create README
+* Create CHANGELOG
+* Create screenshots folder
+* Establish project structure
 
 ---
 
-## Technologies
+### v0.2 – Identity Management
 
-- Microsoft Entra ID
-- Microsoft Intune *(Future Version)*
-- Microsoft Graph API *(Future Version)*
-- Azure
-- GitHub
+**Concept:** Every employee has an identity.
 
----
+* Create users
+* Configure user properties
+* Organize employee identities
 
-## Current Features
+**Learn**
 
-- Personal Microsoft Entra tenant
-- Enterprise project planning
-- Documentation structure
+* User lifecycle
+* Identity objects
+* Employee identity management
 
 ---
 
-## Project Roadmap
+### v0.3 – Group-Based Access Management
 
-### Version 0.1
-- Project setup
-- GitHub repository
-- Documentation
-- Company planning
+**Concept:** Manage permissions through groups instead of individual users.
 
-### Version 0.2
-- Enterprise users
+* Create Security Groups
+* Assign users to groups
+* Create All Employees group
 
-### Version 0.3
-- groups
+**Learn**
 
-### Version 0.4
-- Administrative roles
-
-### Version 0.5
-- Company identity structure
-
-### Version 0.6
-- Developer access design
-
-### Version 0.7
-- Microsoft Intune
-
-### Version 0.8
-- Microsoft Graph planning
-
-### Version 0.9
-- Final documentation
+* Security Groups
+* Access management
+* Least privilege
+* Scalable permission management
 
 ---
 
-## Repository Structure
+### v0.4 – Administrative Access (RBAC)
 
-docs/
-screenshots/
-diagrams/
+**Concept:** Separate administrative responsibilities from business access.
 
----
+* Explore built-in administrative roles
+* Assign administrative roles
+* Understand RBAC
 
-## Documentation
+**Learn**
 
-Each version includes:
-
-- Documentation
-- Screenshots
-- Architecture diagrams
-- Lessons learned
-- GitHub commit history
+* Administrative Roles
+* Least privilege
+* Delegated administration
+* Tenant administration
 
 ---
 
-## Future Goals
+### v0.5 – Collaboration & Microsoft 365 Groups
 
-- Microsoft Intune deployment
-- Conditional Access
-- Compliance Policies
-- Device Management
-- Application Deployment
-- Microsoft Graph integration
-- Spring Boot automation
+**Concept:** Separate collaboration from permission management.
+
+* Create Microsoft 365 Groups
+* Configure Owners
+* Add Members
+
+**Learn**
+
+* Collaboration workspaces
+* Microsoft 365 Groups
+* Group Owners vs Members
+* Difference between Security Groups and Microsoft 365 Groups
+
+---
+
+### v0.6 – Enterprise Applications & Identity Integration
+
+**Concept:** Applications trust Microsoft Entra to authenticate users.
+
+* Explore Enterprise Applications
+* Understand Service Principals
+* Review Application ID and Object ID
+* Understand Single Sign-On
+
+**Learn**
+
+* Identity Provider (IdP)
+* Enterprise Applications
+* Service Principals
+* Centralized authentication
+* Application assignments
+
+---
+
+### v0.7 – Application Identity & App Registrations
+
+**Concept:** Applications have identities just like users.
+
+* Create an App Registration
+* Explore Client ID
+* Explore Object ID
+* Generate Client Secret
+* Configure Microsoft Graph permissions
+
+**Learn**
+
+* App Registrations
+* OAuth 2.0
+* Client Credentials Flow
+* Microsoft Graph authentication
+* Application identity
+
+---
+
+### v0.8 – Device Management with Intune
+
+**Concept:** Secure and manage enterprise devices.
+
+* Device enrollment
+* Configuration Profiles
+* Compliance Policies
+* Device targeting
+
+**Learn**
+
+* Microsoft Intune
+* Device lifecycle
+* Compliance
+* Configuration management
+
+---
+
+### v0.9 – Conditional Access & Zero Trust
+
+**Concept:** Authentication alone is not enough.
+
+* Create Conditional Access policies
+* Explore MFA
+* Review access conditions
+
+**Learn**
+
+* Zero Trust
+* Conditional Access
+* Risk-based authentication
+* Identity protection
+
+---
+
+### v1.0 – Identity Governance & Review
+
+**Concept:** Bring the entire identity platform together.
+
+* Review tenant architecture
+* Review users, groups, roles, and applications
+* Validate identity design
+* Final project review
+
+**Learn**
+
+* Identity governance
+* Enterprise architecture
+* Identity lifecycle
+* End-to-end Microsoft Entra administration
