@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-Develop hands-on experience administering Microsoft Entra ID by building an enterprise identity environment from the ground up. This lab focuses on understanding not only *how* Microsoft Entra features work, but *why* organizations implement them to manage identities, applications, devices, and security at scale.
+Develop hands-on experience administering Microsoft Entra ID by building an enterprise identity environment from the ground up. This lab focuses on understanding not only *how* Microsoft Entra features work, but *why* organizations implement them to manage identities, applications, and security at scale.
 
 ---
 
