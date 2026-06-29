@@ -75,3 +75,18 @@ All notable changes to this project will be documented in this file.
 - Reviewed Graph API endpoints such as `/me` and `/users`.
 - Observed how Microsoft Graph requires permissions before returning tenant data.
 - Compared delegated access for '/me' with broader directory access for '/users'.
+
+## v0.9 - Enterprise Identity Architecture
+
+### Added
+- Reviewed the complete Microsoft Entra identity lab.
+- Connected users, groups, RBAC, Microsoft 365 Groups, Enterprise Applications, App Registrations, and Microsoft Graph into one identity architecture.
+- Added final screenshots for the identity architecture review.
+
+### Lessons Learned
+- Learned how Microsoft Entra acts as the identity foundation for users, applications, and services.
+- Understood how App Registrations, Service Principals, OAuth, Access Tokens, and Microsoft Graph connect.
+- Reinforced least privilege through group-based access, delegated administration, and application permissions.
+
+### Next
+- Begin the Enterprise Identity Provisioning Platform using Spring Boot and Microsoft Graph.
