@@ -45,8 +45,14 @@ All notable changes to this project will be documented in this file.
 - Implemented role assignments following the principle of least privilege.
 - Added screenshot demonstrating RBAC configuration.
 
-## v0.5
+## v0.5 Microsoft 365 Groups
 
 ### Added
 - Implemented Microsoft 365 Groups (Collaboration).
 - Added a user in the Microsoft 365 group as owner.
+
+## v0.6 Understanding Enterpise Applications
+
+### Added
+- Observed and analyzed how Enterprise Applications worked
+- Understood the difference between Application ID and Object ID
