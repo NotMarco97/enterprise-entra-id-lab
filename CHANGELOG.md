@@ -67,3 +67,11 @@ All notable changes to this project will be documented in this file.
 - Verified the associated Service Principal (Enterprise Application).
 - Studied the OAuth 2.0 Client Credentials Flow.
 - Learned how Access Tokens are used to authenticate Microsoft Graph requests.
+
+## v0.8 Microsoft Graph API Fundamentals
+
+### Added 
+- Explored Microsoft Graph Explorer.
+- Reviewed Graph API endpoints such as `/me` and `/users`.
+- Observed how Microsoft Graph requires permissions before returning tenant data.
+- Compared delegated access for '/me' with broader directory access for '/users'.
