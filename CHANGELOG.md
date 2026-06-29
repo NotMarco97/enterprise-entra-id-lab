@@ -56,3 +56,14 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Observed and analyzed how Enterprise Applications worked
 - Understood the difference between Application ID and Object ID
+
+## v0.7 Application Identity, Authentication & Authorization
+
+### Added
+- Created an App Registration for the Identity Administration Lab.
+- Generated a Client Secret for application authentication.
+- Explored Microsoft Graph API permissions.
+- Compared Delegated and Application permissions.
+- Verified the associated Service Principal (Enterprise Application).
+- Studied the OAuth 2.0 Client Credentials Flow.
+- Learned how Access Tokens are used to authenticate Microsoft Graph requests.
