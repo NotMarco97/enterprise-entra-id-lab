@@ -104,73 +104,78 @@ Develop hands-on experience administering Microsoft Entra ID by building an ente
 
 ---
 
-### v0.7 – Application Identity & App Registrations
+## v0.7 – Application Identity, Authentication & Authorization
 
-**Concept:** Applications have identities just like users.
+**Concept:** Applications have identities just like users and must authenticate before they can securely access Microsoft services.
+
+### Tasks
 
 * Create an App Registration
-* Explore Client ID
-* Explore Object ID
-* Generate Client Secret
-* Configure Microsoft Graph permissions
+* Explore the Client ID and Object ID
+* Generate a Client Secret
+* Explore Microsoft Graph API permissions
+* Compare Delegated vs Application permissions
+* Locate the associated Service Principal (Enterprise Application)
+* Understand the OAuth authentication flow
 
-**Learn**
+### Learn
 
+* Application Identity
 * App Registrations
+* Service Principals
 * OAuth 2.0
 * Client Credentials Flow
-* Microsoft Graph authentication
-* Application identity
+* Access Tokens
+* Microsoft Graph Authentication
+* Delegated vs Application Permissions
+* Least Privilege for Applications
 
 ---
 
-### v0.8 – Device Management with Intune
+### v0.8 – Microsoft Graph API Fundamentals
 
-**Concept:** Secure and manage enterprise devices.
+**Concept:** Microsoft Graph is the unified API that applications use to interact with Microsoft Entra and other Microsoft 365 services.
 
-* Device enrollment
-* Configuration Profiles
-* Compliance Policies
-* Device targeting
+**Tasks**
+
+* Explore Microsoft Graph Explorer
+* Authenticate using Microsoft Entra
+* Explore REST endpoints
+* Retrieve users
+* Retrieve groups
+* Analyze JSON responses
+* Understand Microsoft Graph resources
 
 **Learn**
 
-* Microsoft Intune
-* Device lifecycle
-* Compliance
-* Configuration management
+* Microsoft Graph API
+* REST APIs
+* Endpoints
+* Resources
+* JSON Responses
+* OAuth Access Tokens in Practice
 
 ---
 
-### v0.9 – Conditional Access & Zero Trust
+### v0.9 – Enterprise Identity Architecture
 
-**Concept:** Authentication alone is not enough.
+**Concept:** Bring together users, groups, applications, authentication, and authorization into a complete enterprise identity workflow.
 
-* Create Conditional Access policies
-* Explore MFA
-* Review access conditions
+**Tasks**
 
-**Learn**
-
-* Zero Trust
-* Conditional Access
-* Risk-based authentication
-* Identity protection
-
----
-
-### v1.0 – Identity Governance & Review
-
-**Concept:** Bring the entire identity platform together.
-
-* Review tenant architecture
-* Review users, groups, roles, and applications
-* Validate identity design
-* Final project review
+* Review the authentication flow
+* Review the authorization flow
+* Diagram the employee onboarding process
+* Diagram the employee offboarding process
+* Review least privilege implementation
+* Review App Registrations and Service Principals
+* Review Microsoft Graph integration
 
 **Learn**
 
-* Identity governance
-* Enterprise architecture
-* Identity lifecycle
-* End-to-end Microsoft Entra administration
+* Identity Lifecycle
+* Enterprise Identity Architecture
+* Authentication vs Authorization
+* Identity Automation
+* Least Privilege
+* Identity Governance
